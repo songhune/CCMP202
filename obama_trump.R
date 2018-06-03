@@ -88,7 +88,7 @@ obama_trump_m <- as.matrix(obama_trump_tdm)
 
 commonality.cloud(obama_trump_m,  colors ="steelblue1", max.words=100)
 
-## 4.3. 비교 단어구름
+## 4.3. 비교 wordcloud
 colnames(obama_trump_tdm) <- c("Obama", "Trump")
 obama_trump_df <- as.matrix(obama_trump_tdm) %>% as.data.frame()
 
