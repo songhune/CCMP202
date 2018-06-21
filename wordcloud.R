@@ -12,7 +12,7 @@ facebook_crawling <- function(token, page, output) {
 
 # ABC News 페이지에서 데이터 수집# ABC Ne 
 page <- "ABCNews" 		       # ABC News 페이지 ID
-token <- "EAACEdEose0cBAMtjBUckEXXTWuATwgngpbDanGrRZB5kA7lolA8QiTCwmoGxS6ioBnY4ptGi3AyhEHFRKV13lU4kT4T53f9wP85e31KMZBZBZBj4EKVe3yAekmHdQbICsqfDgAtEsslXInAPsarJEGvcIkX3aGNnGvVXwanil19W4HarUHVGyV5gBwBnZBiAZD"	# 페이스북 개발자 토큰
+token <- ""	# 페이스북 개발자 토큰
 output <- "abcnews_fb_data.txt"	# 저장할 결과 파일 이름
 
 facebook_crawling(token, page, output)
